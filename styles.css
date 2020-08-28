@@ -5,11 +5,20 @@ font-family: Monospace;
 }
 @media only screen and (min-width: 768px) {
  .center {
-    width: 90%;
+    width: 50%;
   }
   input[type=number], select {
     width: 35%;}
 }
+
+@media only screen and (max-width: 768px) {
+ .center {
+    width: 100%;
+  }
+  input[type=number], select {
+    width: 75%;}
+}
+
 .center {
   margin: auto;
   border: 0px solid green;
