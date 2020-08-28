@@ -13,7 +13,7 @@ font-family: Monospace;
 }
 
 @media only screen and (max-width: 768px) {
- .center {
+ .container {
     width: 100%;
   }
   input[type=number], select {
