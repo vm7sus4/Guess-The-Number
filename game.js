@@ -108,7 +108,7 @@ function isGameOver () {
 	 }
 	 
 	 else {
-		 textArea.innerText = "You guessed correctly, congrats.! Only took you " + counter + " tries.";
+		 textArea.innerText = "You guessed correctly, congrats.! Only took you " + counter + (counter!==1?" tries.":" try.");
 		 newGameButton.style.display = 'inline';
 		 inputBox.style.display = 'none';
 		 guessButton.style.display = 'none';
