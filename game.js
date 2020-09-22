@@ -67,7 +67,7 @@ function initializeGame () {
 	  guessButton.innerText = 'guess';
 	  triesLeft.style.display = 'inline';
 	  newGameButton.style.display = 'none';
-	  textArea.innerText = 'I\'m a number between 0 and 10. What am I? (can you guess in 4 tries or less?)';
+	  textArea.innerText = 'I\'m a number between 0 and 10 (inclusive). What am I? (can you guess in 4 tries or less?)';
 	  number = Math.trunc(Math.random() * 10);
   }
 
